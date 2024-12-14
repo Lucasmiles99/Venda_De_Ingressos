@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `cliente` (
+  `codigo` INT NOT NULL AUTO_INCREMENT,
+  `descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`codigo`))
+ENGINE = InnoDB;
